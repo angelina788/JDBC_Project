@@ -6,7 +6,7 @@ public class TestConnection {
 
     public static void main(String[] args)  {
 
-        /**
+        /*
          * host: 54.159.164.229
          * port: 1521
          * SID : XE
@@ -28,6 +28,7 @@ public class TestConnection {
 
         }catch(SQLException e){
            System.out.println("CONNECTION HAS FAILED "+ e.getMessage());
+
        }
     }
 }
